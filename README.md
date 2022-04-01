@@ -7,3 +7,5 @@
 5. docker-compose build
 6. docker-compose up -d
 7. http://localhost:3000/
+
+docker stop $(docker ps -a -q)  - for stop all cotainers
