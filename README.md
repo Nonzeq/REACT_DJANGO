@@ -1,2 +1,5 @@
 # REACT_DJANGO
 
+1. mkdir PROJECT && cd PROJECT
+2. git init
+3. git clone
