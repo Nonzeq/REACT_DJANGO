@@ -9,6 +9,7 @@
 7. http://localhost:3000/
 
 docker stop $(docker ps -a -q)  : for stop all cotainers
+
 docker rm $(docker ps -a -f status=exited -q) : for delete all containers with status exist
 
 docker system prune -a : for delete all images
