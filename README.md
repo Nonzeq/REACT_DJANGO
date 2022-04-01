@@ -8,7 +8,7 @@
 6. docker-compose up -d
 7. http://localhost:3000/
 
-docker stop $(docker ps -a -q)  : for stop all cotainers
+docker stop $(docker ps -a -q)  : for stop all containers
 
 docker rm $(docker ps -a -f status=exited -q) : for delete all containers with status exist
 
